@@ -20,11 +20,9 @@
         <meta property="og:image:width" content="800">
         <meta property="og:image:height" content="600">
         <meta property="og:type" content="website">
-        
         <meta name="theme-color" content="#FFE600">
-        
         <link href="<?=$h?>assets/css/estilo.css?<?=$v?>" rel="stylesheet">
-        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
         <meta name="twitter:card" content="summary">
         <meta name="twitter:title" content="<?=$twitterTitle?>">
         <meta name="twitter:description" content="<?=$twitterDescription?>">
