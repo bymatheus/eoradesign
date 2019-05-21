@@ -2,4 +2,77 @@
 @import url("bootstrap.min.css");
 
 /*Fonte*/
-@import url("");
+@import url("https://use.typekit.net/uqc4lay.css");
+
+* {
+    font-family: zeitung, sans-serif;
+    color: #2F2F2F;
+}
+
+li,
+a,
+p {
+    font-size: .9rem;
+}
+
+.full-vh {
+    height: 100vh;
+}
+
+.center-vh {
+    top: 50vh;
+    transform: translateY(-50%);
+}
+
+.btn-1 {
+    background-color: #FAE90E;
+    border-radius: 10rem;
+    padding: 1.4rem 3rem;
+}
+
+.bg-cor {
+    background-color: #2F2F2F;
+    color: #fff !important;
+}
+
+.titulo-container {
+    color: #FAE90E;
+}
+
+/*=============================================
+MENU
+=============================================*/
+.navbar {
+    background-color: transparent;
+}
+
+.navbar .navbar-brand img {
+    width: 11.5rem;
+}
+
+.navbar .nav-link {
+    color: #2F2F2F;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+/*=============================================
+Header
+=============================================*/
+.container-principal {
+    margin-top: -112.11px;
+    background-image: url(../img/bg-3.jpg);
+    background-position: center right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-principal .titulo-geral {
+    font-weight: 700;
+    font-size: 3rem;
+}
