@@ -15,6 +15,10 @@ p {
     font-size: .9rem;
 }
 
+p {
+    margin-bottom: 0;
+}
+
 .full-vh {
     height: 100vh;
 }
@@ -32,10 +36,27 @@ p {
 
 .bg-cor {
     background-color: #2F2F2F;
-    color: #fff !important;
+}
+
+.bg-cor p {
+    color: #fff;
 }
 
 .titulo-container {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center; 
+}
+
+.subtitulo-container {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center; 
+}
+
+.bg-cor .titulo-container {
     color: #FAE90E;
 }
 
@@ -66,13 +87,230 @@ Header
 =============================================*/
 .container-principal {
     margin-top: -112.11px;
-    background-image: url(../img/bg-3.jpg);
-    background-position: center right;
+    background-image: url(../img/bg-1-1.jpg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
 }
 
 .container-principal .titulo-geral {
     font-weight: 700;
     font-size: 3rem;
+    margin-bottom: 0rem;
+}
+
+#typed {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.typed-cursor {
+    font-size: 2.7rem;
+}
+
+.container-principal .btn {
+    margin-top: 2rem;
+}
+
+.scroll-downs {
+    position: absolute;
+    right: 0;
+    bottom: 3rem;
+    left: 0;
+    margin: auto;
+    width: 34px;
+    height: 55px;
+}
+
+.mousey {
+    width: 3px;
+    padding: 7px 12px;
+    height: 35px;
+    border: 2px solid #2F2F2F;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+}
+
+.scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #2F2F2F;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+}
+
+/*=============================================
+Sobre
+=============================================*/
+.container-sobre .titulo-container {
+    text-align: right;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 5.6rem;
+}
+
+/*=============================================
+Serviços
+=============================================*/
+.container-servicos {
+    background-image: url(../img/eora.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-servicos .subtitulo-container {
+    margin-bottom: 4rem !important;
+}
+
+.container-servicos .servico {
+    text-align: center;
+    cursor: pointer;
+}
+
+.container-servicos .servico i {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    transition: .2s;
+}
+
+.container-servicos .servico h5 {
+    font-size: 1rem;
+    margin: 0;
+    color: #fff;
+    transition: .2s;
+}
+
+.container-servicos .servico:hover h5,
+.container-servicos .servico:hover i {
+    color: #FAE90E;
+}
+
+.container-servicos .card-body {
+    padding: 0rem 0rem 0rem 5rem;
+}
+
+.container-servicos .card-body h6,
+.container-servicos .card-body p {
+    color: #fff;
+}
+
+.container-servicos .servicos-topo {
+    margin-bottom: 6rem;
+}
+
+.container-servicos .card {
+    background-color: transparent;
+    border: 0;
+}
+
+.container-servicos .card-body h6 {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+/*=============================================
+Projetos
+=============================================*/
+.container-projetos {
+    padding-top: 6.5rem;
+    padding-bottom: 7.5rem;
+}
+
+.container-projetos .titulo-container {
+    margin-bottom: 4rem !important;
+}
+
+.container-projetos .projeto {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;
+    padding: 0;
+    cursor: pointer;
+}
+
+.container-projetos .projeto .projeto-info {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.container-projetos .projeto:hover .projeto-info {
+    visibility: visible;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #fae90ed9;
+}
+
+.container-projetos .projeto .projeto-info p {
+    font-size: 1rem;
+    padding-top: 9.5rem;
+    color: #2F2F2F;
+}
+
+/*=============================================
+Contato
+=============================================*/
+.container-contato {
+    background-image: url(../img/contato.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    padding-top: 4.5rem;
+    padding-bottom: 5.5rem;
+}
+
+.container-contato .subtitulo-container {
+    margin-bottom: 3rem !important;
+}
+
+/*=============================================
+Forms
+=============================================*/
+.form-group label {
+    color: #fff;
+}
+
+.form-control {
+    height: auto;
+    padding: .75rem .75rem;
+    font-size: .9rem;
+    line-height: 1.3rem;
+    color: #fff;
+    background-color: #0000008a;
+    border: 0;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    background-color: #0000008a;
+    box-shadow: 0 0 0 0.2rem #fae90e30;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fff;
 }

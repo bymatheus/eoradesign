@@ -1,7 +1,7 @@
 <?php
     session_start();
 
-    $v="1.0.0";
+    $v="1.0.2";
 
     //Logica que seta o ambiente
     require_once($h."assets/inc/logica-ambiente.php");
