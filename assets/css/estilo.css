@@ -2,10 +2,10 @@
 @import url("bootstrap.min.css");
 
 /*Fonte*/
-@import url("https://use.typekit.net/uqc4lay.css");
+@import url("../fonts/stylesheet.css");
 
 * {
-    font-family: zeitung, sans-serif;
+    font-family: 'sf_pro', sans-serif;
     color: #2F2F2F;
 }
 
@@ -45,14 +45,14 @@ p {
 .titulo-container {
     color: #fff;
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: bold;
     text-align: center; 
 }
 
 .subtitulo-container {
     color: #fff;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: normal;
     text-align: center; 
 }
 
@@ -95,13 +95,13 @@ Header
 }
 
 .container-principal .titulo-geral {
-    font-weight: 700;
+    font-weight: bold;
     font-size: 3rem;
     margin-bottom: 0rem;
 }
 
 #typed {
-    font-weight: 700;
+    font-weight: bold;
     font-size: 3rem;
 }
 
@@ -156,7 +156,7 @@ Sobre
 .container-sobre .titulo-container {
     text-align: right;
     font-size: 5rem;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 5.6rem;
 }
 
@@ -217,7 +217,7 @@ Serviços
 }
 
 .container-servicos .card-body h6 {
-    font-weight: 700;
+    font-weight: bold;
     font-size: 1.2rem;
 }
 
