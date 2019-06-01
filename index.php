@@ -45,10 +45,10 @@
                     <div class="row align-items-center">
                         <div class="col-5">
                             <h3 class="titulo-container mb-0">
-                                OI<br>
-                                NÓS<br>
-                                SOMOS<br>
-                                A EORA<br>
+                                oi<br>
+                                nós<br>
+                                somos<br>
+                                a EORA<br>
                             </h3>
                         </div>
                         <div class="col-6">
@@ -232,19 +232,22 @@
                                 
                                 <div class="col-4 projeto" style="background-image:url(<?=$h?>assets/img/portfolio/1.png)">
                                     <div class="projeto-info">
-                                        <p>Título</p>
+                                        <h6>Nome projeto</h6>
+                                        <p>Branding</p>
                                     </div>
                                 </div>
 
                                 <div class="col-4 projeto" style="background-image:url(<?=$h?>assets/img/portfolio/2.png)">
                                     <div class="projeto-info">
-                                        <p>Título</p>
+                                        <h6>Nome projeto</h6>
+                                        <p>Branding</p>
                                     </div>
                                 </div>
 
                                 <div class="col-4 projeto" style="background-image:url(<?=$h?>assets/img/portfolio/3.png)">
                                     <div class="projeto-info">
-                                        <p>Título</p>
+                                        <h6>Nome projeto</h6>
+                                        <p>Branding</p>
                                     </div>
                                 </div>
 
