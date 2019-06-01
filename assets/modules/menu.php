@@ -29,10 +29,10 @@
                             <a class="nav-link" href="https://www.facebook.com/EoraDesign/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                         </li>
                         <li class="nav-item social-menu">
-                            <a class="nav-link" href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="nav-link" href="https://www.instagram.com/eoradesign/" target="_blank"><i class="fab fa-instagram"></i></a>
                         </li>
                         <li class="nav-item social-menu">
-                            <a class="nav-link" href="https://www.instagram.com/eoradesign/" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a class="nav-link" href="https://twitter.com/eoradesign/" target="_blank"><i class="fab fa-twitter"></i></a>
                         </li>
                     </ul>
                 </div>
