@@ -28,3 +28,4 @@
         <meta name="twitter:description" content="<?=$twitterDescription?>">
         <meta name="twitter:image" content="<?=$twitterImage?>">
     </head>
+    <body>

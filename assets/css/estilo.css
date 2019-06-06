@@ -65,6 +65,11 @@ MENU
 =============================================*/
 .navbar {
     background-color: transparent;
+    transition: top 0.2s ease-in-out;
+}
+
+.nav-up {
+    top: -112.11px;
 }
 
 .navbar .navbar-brand img {
@@ -324,4 +329,10 @@ Forms
 
 .form-control::-ms-input-placeholder { /* Microsoft Edge */
     color: #fff;
+}
+
+.form-control:focus {
+    background-color: #0000008a;
+    color: #fff;
+    box-shadow: 0 0 0 0.2rem #fae90e30;
 }
