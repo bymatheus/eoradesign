@@ -336,3 +336,23 @@ Forms
     color: #fff;
     box-shadow: 0 0 0 0.2rem #fae90e30;
 }
+
+/*=============================================
+Rodapé
+=============================================*/
+.rodape {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.rodape p {
+    margin: 0;
+}
+
+.rodape .logo-rodape img {
+    width: 7rem;
+}
+
+.rodape .infos-rodape p {
+    text-align: right;
+}
