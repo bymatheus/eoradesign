@@ -87,6 +87,12 @@ MENU
     }
 }
 
+@media(max-width: 991px) {
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgb(47, 47, 47)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
+    }
+}
+
 /*=============================================
 Header
 =============================================*/
@@ -355,4 +361,43 @@ Rodapé
 
 .rodape .infos-rodape p {
     text-align: right;
+}
+
+/*=============================================
+Porfólio
+=============================================*/
+.modal-portfolio {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.modal-portfolio .modal-dialog {
+    max-width: 95%;
+}
+
+.modal-portfolio .modal-content {
+    background-color: transparent;
+    border: 0;
+}
+
+.modal-portfolio .modal-header {
+    padding: 0;
+    border-bottom: 0;
+}
+
+.modal-portfolio .carousel-item {
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.modal-portfolio .close {
+    font-weight: 300;
+    text-shadow: unset;
+    opacity: 1;
+    padding-right: 1.9rem;
+}
+
+.modal-portfolio .close span {
+    color: #fff !important;
 }

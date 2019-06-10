@@ -230,26 +230,20 @@
                         <div class="col-12">
                             <div class="row">
                                 
-                                <div class="col-4 projeto" style="background-image:url(<?=$h?>assets/img/portfolio/1.png)">
+                                <?php
+                                    foreach ($projetos as $p) {
+                                ?>
+                                
+                                <div data-toggle="modal" data-target="#<?=$p['id']?>" class="col-4 projeto" style="background-image:url(<?=$h?>assets/img/portfolio/<?=$p['img-prin']?>)">
                                     <div class="projeto-info">
-                                        <h6>Nome projeto</h6>
-                                        <p>Branding</p>
+                                        <h6><?=$p['nome']?></h6>
+                                        <p><?=$p['servico']?></p>
                                     </div>
                                 </div>
 
-                                <div class="col-4 projeto" style="background-image:url(<?=$h?>assets/img/portfolio/2.png)">
-                                    <div class="projeto-info">
-                                        <h6>Nome projeto</h6>
-                                        <p>Branding</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-4 projeto" style="background-image:url(<?=$h?>assets/img/portfolio/3.png)">
-                                    <div class="projeto-info">
-                                        <h6>Nome projeto</h6>
-                                        <p>Branding</p>
-                                    </div>
-                                </div>
+                                <?php
+                                    }
+                                ?>
 
                             </div>
                         </div>
@@ -295,6 +289,8 @@
         </article>
 
 <?php
+    //Portólio
+    require_once($h."assets/portfolio/portfolios.php");
     //Rodape
     require_once($h."assets/modules/rodape.php");
 ?>

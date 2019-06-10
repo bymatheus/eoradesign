@@ -17,3 +17,6 @@
 
     //Lista de Cabeçalho
     require_once($h."assets/modules/menu.php");
+
+    //Lista de projetos
+    require_once($h."assets/inc/projetos.php");
