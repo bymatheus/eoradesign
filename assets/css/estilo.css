@@ -330,8 +330,8 @@ Serviços
         text-align: center;
         margin-top: 2rem;
     }
-
 }
+
 /*=============================================
 Projetos
 =============================================*/
@@ -351,6 +351,10 @@ Projetos
     height: 20rem;
     padding: 0;
     cursor: pointer;
+}
+
+.container-projetos .projeto a {
+    text-decoration: none !important;
 }
 
 .container-projetos .projeto .projeto-info {

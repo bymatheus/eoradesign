@@ -1,6 +1,7 @@
         
         <?php
             foreach ($projetos as $p) {
+                if(isset($p['img'])){
         ?>
         
         <div class="modal-portfolio modal fade" id="<?=$p['id']?>" tabindex="-1" role="dialog" aria-hidden="true">
@@ -45,5 +46,6 @@
         </div>
         
         <?php
+                }
             }
         ?>

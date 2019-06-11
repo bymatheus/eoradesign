@@ -232,6 +232,7 @@
                                 
                                 <?php
                                     foreach ($projetos as $p) {
+                                        if(isset($p['img'])){
                                 ?>
                                 
                                 <div data-toggle="modal" data-target="#<?=$p['id']?>" class="col-md-4 col-sm-12 projeto" style="background-image:url(<?=$h?>assets/img/portfolio/<?=$p['img-prin']?>)">
@@ -242,6 +243,20 @@
                                 </div>
 
                                 <?php
+                                        }else{
+                                ?>
+
+                                <div class="col-md-4 col-sm-12 projeto" style="background-image:url(<?=$h?>assets/img/portfolio/<?=$p['img-prin']?>)">
+                                    <a href="<?=$p['link']?>" title="<?=$p['nome']?>" target="_blank">
+                                        <div class="projeto-info">
+                                            <h6><?=$p['nome']?></h6>
+                                            <p><?=$p['servico']?></p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <?php
+                                        }
                                     }
                                 ?>
 
