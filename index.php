@@ -43,7 +43,7 @@
             <div class="col-12 center-vh">
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-5">
+                        <div class="col-lg-5 col-md-12">
                             <h3 class="titulo-container mb-0">
                                 oi<br>
                                 nós<br>
@@ -51,7 +51,7 @@
                                 a EORA<br>
                             </h3>
                         </div>
-                        <div class="col-6">
+                        <div class="col-lg-6 col-md-12">
                             <p>
                                 Nós nascemos da necessidade em facilitar as coisas de design, marketing e comunicação para você e a sua empresa. <br><br><br>
                                 Prestamos serviços assim como uma agência comum, mas falamos do seu jeito, pois quem deve saber como fazer as coisas somos nós e você deve focar no mais importante: o seu negócio.<br><br><br>
@@ -76,58 +76,58 @@
                                 Estamos ansiosos para inovar com você
                             </h5>
                         </div>
-                        <div class="col-8">
+                        <div class="col-lg-8 col-md-6 col-sm-12">
                             <div class="row">
-                                <div class="col-3 servicos-topo servico" data-toggle="collapse" data-target="#marca" aria-expanded="false" aria-controls="marca">
+                                <div class="col-lg-3 col-md-6 col-sm-3 servico" data-toggle="collapse" data-target="#marca" aria-expanded="false" aria-controls="marca">
                                     <i class="far fa-lightbulb"></i>
                                     <h5>
                                         Marca
                                     </h5>
                                 </div>
 
-                                <div class="col-3 servicos-topo servico" data-toggle="collapse" data-target="#identidade" aria-expanded="false" aria-controls="identidade">
+                                <div class="col-lg-3 col-md-6 col-sm-3 servico" data-toggle="collapse" data-target="#identidade" aria-expanded="false" aria-controls="identidade">
                                     <i class="fas fa-fingerprint"></i>
                                     <h5>
                                         Identidade Visual
                                     </h5>
                                 </div>
 
-                                <div class="col-3 servicos-topo servico" data-toggle="collapse" data-target="#papelaria" aria-expanded="false" aria-controls="papelaria">
+                                <div class="col-lg-3 col-md-6 col-sm-3 servico" data-toggle="collapse" data-target="#papelaria" aria-expanded="false" aria-controls="papelaria">
                                     <i class="far fa-sticky-note"></i>
                                     <h5>
                                         Papelaria
                                     </h5>
                                 </div>
 
-                                <div class="col-3 servicos-topo servico" data-toggle="collapse" data-target="#redes" aria-expanded="false" aria-controls="redes">
+                                <div class="col-lg-3 col-md-6 col-sm-3 servico" data-toggle="collapse" data-target="#redes" aria-expanded="false" aria-controls="redes">
                                     <i class="fas fa-laptop"></i>
                                     <h5>
                                         Redes Sociais
                                     </h5>
                                 </div>
 
-                                <div class="col-3 servico" data-toggle="collapse" data-target="#fotografia" aria-expanded="false" aria-controls="fotografia">
+                                <div class="col-lg-3 col-md-6 col-sm-3 servico" data-toggle="collapse" data-target="#fotografia" aria-expanded="false" aria-controls="fotografia">
                                     <i class="fas fa-camera"></i>
                                     <h5>
                                         Fotografia
                                     </h5>
                                 </div>
 
-                                <div class="col-3 servico" data-toggle="collapse" data-target="#editorial" aria-expanded="false" aria-controls="editorial">
+                                <div class="col-lg-3 col-md-6 col-sm-3 servico" data-toggle="collapse" data-target="#editorial" aria-expanded="false" aria-controls="editorial">
                                     <i class="fas fa-book-open"></i>
                                     <h5>
                                         Editorial
                                     </h5>
                                 </div>
 
-                                <div class="col-3 servico" data-toggle="collapse" data-target="#site" aria-expanded="false" aria-controls="site">
+                                <div class="col-lg-3 col-md-6 col-sm-3 servico" data-toggle="collapse" data-target="#site" aria-expanded="false" aria-controls="site">
                                     <i class="fas fa-globe"></i>
                                     <h5>
                                         Site
                                     </h5>
                                 </div>
 
-                                <div class="col-3 servico" data-toggle="collapse" data-target="#consultoria" aria-expanded="false" aria-controls="consultoria">
+                                <div class="col-lg-3 col-md-6 col-sm-3 servico" data-toggle="collapse" data-target="#consultoria" aria-expanded="false" aria-controls="consultoria">
                                     <i class="fas fa-users"></i>
                                     <h5>
                                         Consultoria
@@ -136,7 +136,7 @@
                             </div>
                         </div>
 
-                        <div class="col-4">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="accordion" id="listaServicos">
 
                                 <div class="card">
@@ -234,7 +234,7 @@
                                     foreach ($projetos as $p) {
                                 ?>
                                 
-                                <div data-toggle="modal" data-target="#<?=$p['id']?>" class="col-4 projeto" style="background-image:url(<?=$h?>assets/img/portfolio/<?=$p['img-prin']?>)">
+                                <div data-toggle="modal" data-target="#<?=$p['id']?>" class="col-md-4 col-sm-12 projeto" style="background-image:url(<?=$h?>assets/img/portfolio/<?=$p['img-prin']?>)">
                                     <div class="projeto-info">
                                         <h6><?=$p['nome']?></h6>
                                         <p><?=$p['servico']?></p>
@@ -256,7 +256,7 @@
             <div class="col-12">
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="offset-3 col-6">
+                        <div class="offset-lg-3 col-lg-6 offset-md-2 col-md-8 col-sm-12">
                             <h4 class="titulo-container">
                                 Entre em contato conosco
                             </h4>

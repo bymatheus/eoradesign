@@ -161,6 +161,21 @@ Header
     100% { transform: translateY(15px); opacity: 0;}
 }
 
+
+@media (max-width: 323px){
+    .container-principal .titulo-geral {
+        font-size: 2rem;
+    }
+
+    #typed {
+        font-size: 2rem;
+    }
+
+    .typed-cursor {
+        font-size: 1.7rem;
+    }
+}
+
 /*=============================================
 Sobre
 =============================================*/
@@ -169,6 +184,27 @@ Sobre
     font-size: 5rem;
     font-weight: bold;
     line-height: 5.4rem;
+}
+
+@media (max-width: 991px){
+    .container-sobre {
+        height: auto !important;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .container-sobre .center-vh {
+        top: unset;
+        transform: unset;
+    }
+
+    .container-sobre .titulo-container {
+        padding-top: 0rem;
+        font-size: 3rem;
+        line-height: 3.4rem;
+        text-align: center;
+        margin-bottom: 2rem !important;
+    }
 }
 
 /*=============================================
@@ -218,10 +254,6 @@ Serviços
     color: #fff;
 }
 
-.container-servicos .servicos-topo {
-    margin-bottom: 6rem;
-}
-
 .container-servicos .card {
     background-color: transparent;
     border: 0;
@@ -232,6 +264,74 @@ Serviços
     font-size: 1.2rem;
 }
 
+@media (min-width: 991px){
+    .container-servicos .servico:nth-child(1) {
+        margin-bottom: 6rem;
+    }
+}
+
+@media (min-width: 767px){
+    .container-servicos .servico:nth-child(1),
+    .container-servicos .servico:nth-child(3),
+    .container-servicos .servico:nth-child(5) {
+        margin-bottom: 3rem;
+    }
+}
+
+@media (min-width: 575px){
+    .container-servicos .servico:nth-child(1),
+    .container-servicos .servico:nth-child(5) {
+        margin-bottom: 3rem;
+    }
+}
+
+@media (min-width: 575px){
+    .container-servicos .servico:nth-child(1),
+    .container-servicos .servico:nth-child(5) {
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 991px){
+    .container-servicos {
+        height: auto !important;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .container-servicos .center-vh {
+        top: unset;
+        transform: unset;
+    }
+}
+
+@media (max-width: 767px){
+    .container-servicos .card-body {
+        padding: 0rem 1rem 0rem 1rem;
+    }
+}
+
+@media (max-width: 575px){
+    .container-servicos .subtitulo-container {
+        margin-bottom: 0 !important;
+    }
+
+    .container-servicos .servico i {
+        visibility: hidden;
+        font-size: 0;
+    }
+
+    .container-servicos .servico:nth-child(1),
+    .container-servicos .servico:nth-child(5) {
+        margin-bottom: 0rem;
+    }
+
+    .container-servicos .card-body {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+}
 /*=============================================
 Projetos
 =============================================*/
@@ -285,6 +385,14 @@ Projetos
     margin: 0;
 }
 
+@media (max-width: 991px){
+    .container-projetos {
+        height: auto !important;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
+
 /*=============================================
 Contato
 =============================================*/
@@ -300,6 +408,15 @@ Contato
 .container-contato .subtitulo-container {
     margin-bottom: 3rem !important;
 }
+
+@media (max-width: 991px){
+    .container-contato {
+        height: auto !important;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
+
 
 /*=============================================
 Forms
@@ -361,6 +478,19 @@ Rodapé
 
 .rodape .infos-rodape p {
     text-align: right;
+}
+
+@media (max-width: 767px) {
+    .rodape .logo-rodape img {
+        margin-left: auto!important;
+        margin-right: auto!important;
+        display: block!important;
+    }
+
+    .rodape .infos-rodape p {
+        margin-top: 2rem;
+        text-align: center;
+    }
 }
 
 /*=============================================

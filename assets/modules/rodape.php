@@ -1,11 +1,11 @@
         <footer class="container-fluid bg-cor rodape" id="rodape">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-6 logo-rodape">
+                    <div class="col-md-6 col-sm-12 logo-rodape">
                         <img src="<?=$h?>assets/img/logo-branco.png" class="img-fluid" alt="Logotipo EORA DESIGN">
                     </div>
 
-                    <div class="col-6 infos-rodape">
+                    <div class="col-md-6 col-sm-12 infos-rodape">
                         <p>Eora Design® - Todos os direitos reservados</p>
                     </div>
                 </div>
